@@ -2,9 +2,11 @@
 p{
 	display: inline;
 }
-p:first-of-type{
-	color: red;
+p::before{
+	content:"Before Element";
+	color:red;
 }
-p:last-of-type{
-color: red;
+p::after{
+	content:"After Element";
+	color:red;
 }
